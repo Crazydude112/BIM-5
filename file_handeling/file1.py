@@ -1,0 +1,5 @@
+file=open("file2.txt","x+")
+file.write("This is my first file handling program i hate programming help me ")
+file.seek(0)
+print(file.readline())
+file.close()
